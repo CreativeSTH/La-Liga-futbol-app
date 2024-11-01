@@ -34,6 +34,17 @@ Para instalar y ejecutar la aplicación, sigue estos pasos:
    npm install
    npm start
 
+## Configuración del Entorno
+
+1. Copia el archivo de ejemplo de variables de entorno:
+   ```bash
+   cp .env.example .env
+   ```
+2. Edita el archivo .env con tus configuraciones:
+- Genera una nueva SECRET_KEY
+- Configura tus credenciales de base de datos
+- Ajusta otras variables según sea necesario
+   
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor sigue estos pasos:
 1. **FORK**: Haz un fork del repositorio.
