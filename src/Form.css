@@ -1,0 +1,31 @@
+.badge-green {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #28a745;
+    color: white; 
+    border-radius: 20px; 
+    margin: 0 5px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+}
+
+.badge-red {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #dc3545; 
+    color: white; 
+    border-radius: 20px; 
+    margin: 0 5px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+}
+.badge-gray{
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: lightgray;
+    color: black; 
+    border-radius: 20px; 
+    margin: 0 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+}

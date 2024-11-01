@@ -1,0 +1,68 @@
+.carousel-container {
+  overflow: hidden; 
+  width: 100%; 
+  position: relative; 
+  height: 9rem; 
+}
+
+.carousel {
+  display: flex; 
+  white-space: nowrap; 
+  will-change: transform; 
+}
+
+.player-card {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 250px; 
+  margin-right: 15px; 
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.player-photo {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin-right: 10px; 
+  border: 3px #ff756f solid;
+}
+
+.player-info {
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.player-details {
+  display: flex;
+  width: 180px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.player-name {
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.player-position {
+  font-size: 0.7em;
+  color: #ff756f;
+  font-family: "Open Sans", sans-serif;
+}
+.players-tittle{
+  background-color: #ff4b44;
+  color: white;
+  padding: 5px;
+
+}

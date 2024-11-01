@@ -1,0 +1,16 @@
+.lineup-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+.lineup-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+.lineup-badge{
+    background: #ff4b44;
+    border-radius: 10px;
+    color: white;
+}

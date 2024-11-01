@@ -1,0 +1,21 @@
+.fixture-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size:15px;
+}
+.cards-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+.cards-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+.bg-yellow{
+    background-color: #ffd30d;
+    
+}

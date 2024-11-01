@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Proyecto: **La Liga / futbol-app**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+**La Liga / futbol-app** es una aplicación web interactiva que permite a los usuarios consultar estadisticas en tiempo real de la Liga Española de Futbol, en esta versión inicial se puede consultar cada equipo de la liga, sus últimos resultados y plantilla. a futuro este proyecto esta pensado para convertirse en una app de apuestas deportivas. 
+Diseñada con un enfoque en la experiencia del usuario, esta aplicación ofrece una interfaz intuitiva, simple y atractiva.
 
-## Available Scripts
+## Capturas de Pantalla
+![Pantalla Principal](public/readme/home.png)
+![Detalles del Equipo](public/readme/detail.png)
 
-In the project directory, you can run:
+## Características
+- **Interfaz de Usuario Responsiva**: Se adapta a diferentes tamaños de pantalla.
+- **Integración con API**: Consume datos de API-FOOTBALL para ofrecer contenido actualizado en vivo.
 
-### `npm start`
+## Tecnologías Utilizadas
+- **React**: Para construir la interfaz de usuario.
+- **CSS3**: Para el diseño y estilo de la aplicación.
+- **Prime Flex**: Estilos y maquetación.
+- **React-Loading-Skeleton**: Manejo de estados Loading.
+- **React Spring**: Animaciones y efectos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instalación y Uso
+Para instalar y ejecutar la aplicación, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/TU_USUARIO/la-liga.git
+   cd la-liga
+   npm install
+   npm start
 
-### `npm test`
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor sigue estos pasos:
+1. **FORK**: Haz un fork del repositorio.
+2. **Nueva Rama**: Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. **Commit**: Realiza tus cambios y haz un commit (`git commit -m 'Agregada nueva característica'`).
+4. **Pull**: Envía un pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estado del Proyecto
+Este proyecto está actualmente en desarrollo. Las siguientes características están en planificación:
 
-### `npm run build`
+- Integración de un sistema de apuestas.
+- Mejora de la interfaz de usuario.
+- Agregar más estadísticas en tiempo real.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en el correo electronico de mi perfil.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licencia
+Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.

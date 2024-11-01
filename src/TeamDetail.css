@@ -1,0 +1,179 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 10px; 
+  padding: 10px;
+}
+.team-grid-article {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-grid-article {
+    grid-template-columns: 1fr; 
+  }
+}
+.fixture-row{
+  display: flex;
+  flex-direction: row;
+}
+.fixture-col-6{
+  width: 50%;
+}
+.fixture-container{
+  height: auto;
+  width: 100%;
+}
+.fixture-team-info{
+  height: 100%;
+  background-color: #fbf9f7;
+  padding: 10px;
+}
+.fixture-info-card{
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.fixture-info-profile{
+  width: 70%;
+  display:flex;
+  gap: 10px;
+}
+.prueba{
+  background-color: #999999;
+}
+
+.fixture-info-logo{
+  background-color: rgb(255 255 255);
+  height: 140px;
+  width: 140px;
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #999999;
+}
+.fixture-info-logo img{
+  width: 100px;
+}
+.fixture-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 16px; 
+    margin-top: 20px;
+  }
+  
+  .calendar-day {
+    background-color: #fff; 
+    
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fixture-card {
+    background-color: #ffffff;
+    border-radius: 4px; 
+    transition: transform 0.2s; 
+    width: 100%;
+    
+  }
+ .fixture-card-2{ 
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 4px; 
+    transition: transform 0.2s; 
+    width: 100%;
+ }
+  
+  .fixture-card:hover {
+    transform: scale(1.02);
+  }
+  .fixture-logo{
+    width: 60px;
+  }
+  .fixture-scored{
+    font-size: 25px;
+    border: 1px solid lightgray;
+    padding: 5px 18px;
+    border-radius: 24px;
+    margin: 6px;
+  }
+  .fixture-date{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -11px;
+  }
+  .fixture-logo-bet{
+    width: 100px;
+    filter: brightness(0.5);
+  }
+  .odds{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .odds-home{
+    background: aquamarine;
+    padding: 2px 3px;
+    border-radius: 3px;
+  }
+  .odds-draw{
+    background: gainsboro;
+    padding: 2px 3px;
+    border-radius: 3px;
+  }
+  .odds-visit{
+    background: antiquewhite;
+    padding: 2px 3px;
+    border-radius: 3px;
+  }
+  .odds-tittle{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .fixture-logo-team{
+    width: 95px;
+  }
+  .next-fixture-logo{
+    width: 25px;
+  }
+  .fixture-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size:15px;
+  }
+  .animation-canva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .animation-logo {
+    width: 200px; 
+    height: auto;
+    margin-top: 20px; 
+  }    
+  .team-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }

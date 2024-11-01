@@ -1,0 +1,95 @@
+/* NavMenu.css */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    padding: 10px;
+  }
+  
+  .logo {
+    flex: 0 0 auto; /* No permite que el logo se expanda */
+  }
+  
+  .logo-image {
+    height: 50px; /* Ajusta el tamaño del logo */
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #ff4b44;
+    font-size: 24px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu.open {
+    max-height: 300px; 
+  }
+  
+  .menu li {
+    padding: 10px 15px;
+  }
+  
+  .menu li a {
+    color: #ff4b44;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu li a:hover {
+    background-color:#55555517; 
+  }
+  
+  .icon-container {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .redes-hub{
+    display: flex;
+    gap: 15px;
+  }
+  .nav-icon {
+    color: white;
+    font-size: 20px; 
+    text-decoration: none;
+  }
+  
+  .nav-icon:hover {
+    color: #bbb; 
+  }
+  .logo-redes {
+    width: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+  }
+  
+  .logo-redes:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: brightness(1.2);
+  }
+  .volver-link{
+    text-decoration: none;
+    background-color: #ff4b44;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in; 
+  }
+  .volver-link:hover {
+    background-color: #f5d5d3;
+    color: #ff4b44;
+  }

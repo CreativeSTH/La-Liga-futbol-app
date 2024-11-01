@@ -1,0 +1,10 @@
+.cards-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+.background-bordered{
+    border: 1px solid;
+    border-color: black;
+    color: black;
+}
