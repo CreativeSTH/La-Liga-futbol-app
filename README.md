@@ -1,3 +1,5 @@
+![Banner Principal](public/readme/banner.jpg)
+
 # Proyecto: **La Liga / futbol-app**
 
 ## Descripción
