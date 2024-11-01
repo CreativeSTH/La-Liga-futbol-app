@@ -5,7 +5,10 @@
 Diseñada con un enfoque en la experiencia del usuario, esta aplicación ofrece una interfaz intuitiva, simple y atractiva.
 
 ## Capturas de Pantalla
+**Pantalla Principal**
 ![Pantalla Principal](public/readme/home.png)
+
+**Detalles de Equipo**
 ![Detalles del Equipo](public/readme/details.png)
 
 ## Características
