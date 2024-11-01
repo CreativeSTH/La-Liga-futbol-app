@@ -6,7 +6,7 @@ Diseñada con un enfoque en la experiencia del usuario, esta aplicación ofrece 
 
 ## Capturas de Pantalla
 ![Pantalla Principal](public/readme/home.png)
-![Detalles del Equipo](public/readme/detail.png)
+![Detalles del Equipo](public/readme/details.png)
 
 ## Características
 - **Interfaz de Usuario Responsiva**: Se adapta a diferentes tamaños de pantalla.
