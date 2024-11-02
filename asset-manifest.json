@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/la-liga-futbol-app/static/css/main.23ede3a7.css",
+    "main.js": "/la-liga-futbol-app/static/js/main.b6e5859b.js",
+    "static/js/453.655398de.chunk.js": "/la-liga-futbol-app/static/js/453.655398de.chunk.js",
+    "index.html": "/la-liga-futbol-app/index.html",
+    "main.23ede3a7.css.map": "/la-liga-futbol-app/static/css/main.23ede3a7.css.map",
+    "main.b6e5859b.js.map": "/la-liga-futbol-app/static/js/main.b6e5859b.js.map",
+    "453.655398de.chunk.js.map": "/la-liga-futbol-app/static/js/453.655398de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ede3a7.css",
+    "static/js/main.b6e5859b.js"
+  ]
+}
